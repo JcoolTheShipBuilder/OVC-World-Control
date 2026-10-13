@@ -33,3 +33,5 @@ A separate gridnode generator made by Fundale puts it into MDMX format.
 
 There are few other scripts; tweener readback makes an array of tweeners to move objects, and takes its variables from VRSL's GPU Readback. Instanced Tweenback is an unfinished upgraded version that will be placed on any object you want to move, and it will automatically do readback for at most a dozen channels each.
 
+# note#
+there is currently a bug that causes the shader to behave differently between AMD and NVIDIA cards
