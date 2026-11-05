@@ -5,13 +5,12 @@ Currently, it supports up to 10 different groups of fixture arrays, up to 20 cha
 
 <img width="1107" height="688" alt="image" src="https://github.com/user-attachments/assets/e0c3b2df-9238-46d1-b995-511a3f6b283c" />
 
-It is a bit.. confusing.. But generally, there are three main prefabs for v0.5! 
+It is a bit.. confusing.. But generally, there are three main prefabs for v0.9! 
 The control panel prefab holds all of the necessary stuff to run the system. There is also the screen debug prefab that holds the control variable, DMX linear output, and 9 universe gridnode!
 Finally, there is a prefab for recording the equivalent DMX for the world! 
 
 Fundale from Stage Flight made a binary gridnode encoder for the world, thanks!
-
-v0.5 is a slightly buggy version I am sending out for help on fixing a bug I havent been able to fix, where the shader breaks for NVIDIA graphics cards while staying perfectly fine for AMD graphics. It is an enormous upgrade over v0.1, being far more flexible to be in any world.
+V0.9 introduces world mode swapping, and Metronome controls!
 OVCWorldControlPanelV0.5: a control panel! It contains the main scripts the system needs to run.
 The metronome is a variable that constantly loops between 0 and 2*pi, controlling all time varying movements.
 The texture yeeter is taken from v0.1 and configured for this!
@@ -34,4 +33,4 @@ A separate gridnode generator made by Fundale puts it into MDMX format.
 There are few other scripts; tweener readback makes an array of tweeners to move objects, and takes its variables from VRSL's GPU Readback. Instanced Tweenback is an unfinished upgraded version that will be placed on any object you want to move, and it will automatically do readback for at most a dozen channels each.
 
 # note#
-there is currently a bug that causes the shader to behave differently between AMD and NVIDIA cards
+no bugs found! this is release V0.9!
