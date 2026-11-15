@@ -35,4 +35,4 @@ There are few other scripts; tweener readback makes an array of tweeners to move
 # Additional Comments
 My view for this system is to make it easier to run big clubs while using few external programs. This is for people who want to implement it into their worlds.
 
-Please do not replace your VJs and LDs with this system. Multiple people working on a set is greater than the sum of its parts. Doing so will also make me feel bad too.
+Please do not replace your VJs and LDs with this system. Multiple people working on a set is greater than the sum of its parts. Doing so will also make me feel bad.
