@@ -5,12 +5,12 @@ Currently, it supports up to 10 different groups of fixture arrays, up to 20 cha
 
 <img width="1107" height="688" alt="image" src="https://github.com/user-attachments/assets/e0c3b2df-9238-46d1-b995-511a3f6b283c" />
 
-It is a bit.. confusing.. But generally, there are three main prefabs for v0.9! 
+It is a bit.. confusing.. But generally, there are three main prefabs for v1.0! 
 The control panel prefab holds all of the necessary stuff to run the system. There is also the screen debug prefab that holds the control variable, DMX linear output, and 9 universe gridnode!
 Finally, there is a prefab for recording the equivalent DMX for the world! 
 
 Fundale from Stage Flight made a binary gridnode encoder for the world, thanks!
-V0.9 introduces world mode swapping, and Metronome controls!
+V1.0 introduces world mode swapping, and Metronome controls!
 OVCWorldControlPanelV0.5: a control panel! It contains the main scripts the system needs to run.
 The metronome is a variable that constantly loops between 0 and 2*pi, controlling all time varying movements.
 The texture yeeter is taken from v0.1 and configured for this!
@@ -32,5 +32,7 @@ A separate gridnode generator made by Fundale puts it into MDMX format.
 
 There are few other scripts; tweener readback makes an array of tweeners to move objects, and takes its variables from VRSL's GPU Readback. Instanced Tweenback is an unfinished upgraded version that will be placed on any object you want to move, and it will automatically do readback for at most a dozen channels each.
 
-# note#
-no bugs found! this is release V0.9!
+# Additional Comments
+My view for this system is to make it easier to run big clubs while using few external programs. This is for people who want to implement it into their worlds.
+
+Please do not replace your VJs and LDs with this system. Multiple people working on a set is greater than the sum of its parts. Doing so will also make me feel bad too.
