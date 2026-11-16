@@ -33,6 +33,8 @@ A separate gridnode generator made by Fundale puts it into MDMX format.
 There are few other scripts; tweener readback makes an array of tweeners to move objects, and takes its variables from VRSL's GPU Readback. Instanced Tweenback is an unfinished upgraded version that will be placed on any object you want to move, and it will automatically do readback for at most a dozen channels each.
 
 # Additional Comments
+This system is designed to use VRSL's 9 universe mode, and does target the same texture as MIDIDMX's binary to VRSL script. as such, MIDIDMX must be disabled for this controller to pass data to VRSL successfully
+
 My view for this system is to make it easier to run big clubs while using few external programs. This is for people who want to implement it into their worlds.
 
 Please do not replace your VJs and LDs with this system. Multiple people working on a set is greater than the sum of its parts. Doing so will also make me feel bad.
